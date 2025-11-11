@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Hot Dog",
+        "description": "A classic space-faring snack to keep you going.",
+        "price": "1500 aUEC",
+        "image": "assets/img/products/Hot-dogs.jpg",
+        "category": "meals",
+        "quantity": 1
+    },
+    {
+        "name": "Vestal Water",
+        "description": "Stay hydrated on your interstellar journey.", 
+        "price": "500 aUEC",
+        "image": "assets/img/products/Vestal-water.jpg",
+        "category": "drinks",
+        "quantity": 1
+    },
+    {
+        "name": "Ice Cream",
+        "description": "A cool treat for those warm space days.",
+        "price": "1200 aUEC",
+        "image": "assets/img/products/Ice-cream.jpg",
+        "category": "snacks",
+        "quantity": 1
+    },
+    {
+        "name": "Carnitas-Ritas Burrito",
+        "description": "A delicious burrito to fuel your adventures.",
+        "price": "2500 aUEC",
+        "image": "assets/img/products/torpedo-burritos.jpg",
+        "category": "meals",
+        "quantity": 1
+    },
+     {
+        "name": "Fizzz Cans",
+        "description": "A refreshing drink for your cosmic travels.",
+        "price": "1800 aUEC",
+        "image": "assets/img/products/Fizzz-cans.jpg",
+        "category": "drinks",
+        "quantity": 1
+    }
+]
