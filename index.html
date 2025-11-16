@@ -20,7 +20,7 @@
     <nav>
         <ul id="nav-categories"> <!-- Products Catergories -->
             <li><a href="store.html"><strong>Store</strong></a></li>
-            <li><a href=""><strong>About Us</strong></a></li>
+            <li><a href="about-us.html"><strong>About Us</strong></a></li>
             <li><a href=""><strong>Join Us</strong></a></li>
         </ul>
         <h2><a href="index.html">Shadoria's Delights</a></h2> <!-- LOGO -->
@@ -48,25 +48,50 @@
     </nav>
 
     <div id="body">
-        <!-- MAIN CONTENT -->
-        <!-- <section class="slider_container">
-            <section class="slider">
-                <div class="slide one" style="background-image: url(assets/img/star-citizen-raft.jpg);">
-                </div>
-                <div class="slide two" style="background-image: url(assets/img/base-building.jpg);">
-                </div>
-                <div class="slide three" style="background-image: url(assets/img/star-citizen-raft.jpg);">
-                </div>
-                <div class="slide four" style="background-image: url(assets/img/base-building.jpg);">
-                </div>
-                <div class="slide five" style="background-image: url(assets/img/star-citizen-raft.jpg);">
-                </div>
-            </section>
-        </section> -->
-
-        <section>
-            <h3>Welcome to Shadoria's Delights !</h3>
+        <section id="welcome-section">
+            <h1>Welcome to Shadoria's Delights !</h1>
             <p>At Shadoria's Delights, we believe that every bite should be an adventure. Our mission is to bring you the most exquisite and unique flavors from across the galaxy. Whether you're a seasoned space traveler or a curious foodie, our selection of treats is sure to tantalize your taste buds and ignite your imagination.</p>
+        </section>
+
+        <section id="products-slider" class="scroller" data-direction="right" data-speed="medium">
+            <div class="scroller_inner">
+                <div class="product-card" style="background-image: url(assets/img/products/Hot-dogs.jpg)">
+                    <!-- <img src="assets/img/products/Hot-dogs.jpg" alt="Product 1"> -->
+                    <div class="opacity-cover"></div>
+                </div>
+                <div class="product-card" style="background-image: url(assets/img/products/Vestal-water.jpg)">
+                    <!-- <img src="assets/img/products/Vestal-water.jpg" alt="Product 2"> -->
+                    <div class="opacity-cover"></div>
+                </div>
+                <div class="product-card" style="background-image: url(assets/img/products/Ice-cream.jpg)">
+                    <!-- <img src="assets/img/products/Ice-cream.jpg" alt="Product 3"> -->
+                    <div class="opacity-cover"></div>
+                </div>
+                <div class="product-card" style="background-image: url(assets/img/products/torpedo-burritos.jpg)">
+                    <!-- <img src="assets/img/products/torpedo-burritos.jpg" alt="Product 4"> -->
+                    <div class="opacity-cover"></div>
+                </div>
+                <div class="product-card" style="background-image: url(assets/img/products/Fizzz-cans.jpg)">
+                    <!-- <img src="assets/img/products/Fizzz-cans.jpg" alt="Product 5"> -->
+                    <div class="opacity-cover"></div>
+                </div>
+                <div class="product-card" style="background-image: url(assets/img/products/noodles.jpg)">
+                    <!-- <img src="assets/img/products/noodles.jpg" alt="Product 6"> -->
+                    <div class="opacity-cover"></div>
+                </div>
+                <div class="product-card" style="background-image: url(assets/img/products/Veggie_Wham.jpg)">
+                    <!-- <img src="assets/img/products/Veggie_Wham.jpg" alt="Product 7"> -->
+                    <div class="opacity-cover"></div>
+                </div>            
+            </div>
+        </section>
+
+        <section id="about-us-section">
+            <h1>About Us</h1>
+            <p>Founded in 2950, Shadoria's Delights has quickly become a beloved destination for food enthusiasts and adventurers alike. Our founder, Shad0rian, embarked on a journey across the stars to discover rare and exotic ingredients, which she then transformed into delectable treats that capture the essence of her travels.</p>
+            <p>At Shadoria's Delights, we are committed to sustainability and ethical sourcing. We work closely with local farmers and artisans to ensure that our ingredients are not only of the highest quality but also support the communities from which they originate.</p>
+            <p>Join us on a culinary journey like no other. Explore our diverse range of products, from savory snacks to sweet indulgences, and experience the magic of Shadoria's Delights. Your taste buds will thank you!</p>
+            <a href="about-us.html">Discover more about us</a>
         </section>
     </div>
     
@@ -157,6 +182,7 @@
         
     </footer>
 
-    <script src="assets/js/slideshow.js"></script>
+    <!-- <script src="assets/js/slideshow.js"></script> -->
+    <script src="assets/js/scroller.js"></script>
 </body>
 </html>

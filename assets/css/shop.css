@@ -157,7 +157,7 @@ div#add-to-cart p.price {
 #add-to-cart button {
     font-family: "Asimovian", sans-serif;
     color: var(--text-color);
-    border: 1px solid var(--variant-background) !important;
+    border: 1px solid var(--variant-background);
     border-color: var(--text-color);
     background-color: var(--variant-background);
 }
@@ -166,6 +166,12 @@ div#add-to-cart p.price {
     color: var(--text-color) !important;
     border-color: var(--text-color) !important;
     background-color: var(--variant-background);
+}
+
+.out-of-stock #add-to-cart {
+    margin-top: 15px;
+    color: var(--text-color) !important;
+    background-color: var(--variant-background) !important;
 }
 
 /* The "show" class is added to the filtered elements */

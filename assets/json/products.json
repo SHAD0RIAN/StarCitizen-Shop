@@ -2,7 +2,7 @@
     {
         "name": "Hot Dog",
         "description": "A classic space-faring snack to keep you going.",
-        "price": "1500 aUEC",
+        "price": "2000 aUEC",
         "image": "assets/img/products/Hot-dogs.jpg",
         "category": "meals",
         "quantity": 1
@@ -37,6 +37,22 @@
         "price": "1800 aUEC",
         "image": "assets/img/products/Fizzz-cans.jpg",
         "category": "drinks",
+        "quantity": 1
+    },
+    {
+        "name": "Big Bennys Noodles",
+        "description": "A warm kacho with a scipy taste of Terra",
+        "price": "2400 aUEC",
+        "image": "assets/img/products/noodles.jpg",
+        "category": "meals",
+        "quantity": 1
+    },
+    {
+        "name": "Wham Burgers",
+        "description": "The best burgers of the galaxy !",
+        "price": "3000 aUEC",
+        "image": "assets/img/products/Veggie_Wham.jpg",
+        "category": "meals",
         "quantity": 1
     }
 ]

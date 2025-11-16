@@ -37,6 +37,12 @@ function addElement(element){
 
     // Add class to the new element
     newDiv.className = "product-card " + element.category;
+    if(element.quantity == 0) {
+        newDiv.className = newDiv.className + " out-of-stock"
+        newDiv.lastChild.textContent="Out of stock"
+    }
+
+    console.log('${element}')
 
     // Append the new element to the product grid
     var productGrid = document.getElementById("product-grid");
